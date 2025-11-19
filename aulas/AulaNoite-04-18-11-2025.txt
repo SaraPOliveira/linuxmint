@@ -1,0 +1,49 @@
+Objetivo da aula de hoje: 18/11/2025
+
+#01_ Se autenticar com a sua conta no Github no Windows (desktop senac) e também no Linux Mint.
+
+#02_ Material das aulas de GNU/Linux Desktop
+https://github.com/vaamonde/dell-linuxmint
+
+#03_ Material das aulas na Rede SENAC-TAT
+T:\Publica\!!!!!!!RobsonVaamonde\LinuxMint
+
+#04_ Material Extra de Estudos de GNU/Linux
+a) Guia Foca: https://guiafoca.org/
+b) SS64: https://ss64.com/
+c) Aurelio: https://aurelio.net/
+d) DistroWatch: https://distrowatch.com/
+e) LPI: https://learning.lpi.org/pt/
+
+Desafio das etapas: criar um diretório chamado: imagens no seu Repositório (Local ou Remoto), printar as principais telas de configuração dos procedimentos executados nessa aula.
+
+#05_ Adicionando Hard Disk no Linux Mint
+(Particionamento, Formatação de Disco Básico e Montagem)
+
+25GB - arquivos		--> Ext4
+50GB - backup		--> NTFS
+75GB - seu_nome		--> Ext4
+
+Desafio: Montagem automática dos Hard Disk
+Dica: Gerenciador de Disco
+Pesquisar: Timeshift Linux Mint
+
+#06_ Criando Usuários no Linux Mint - ok
+
+#07_ Conhecendo as opções de Configurações do Sistema do Linux Mint
+
+#08_ Personalização da Tela de Login (Janela de Início de Sessão) do Linux Mint
+
+#09_ Personalização da Área de Trabalho do Linux Mint
+
+#10_ Adicionando Applets na Barra de Tarefas, Desklets na Área de Trabalho, Plano de Fundo, Temas, Detalhes da Conta (Adicionar sua Foto).
+
+#11_ Adicionando um novo Kernel mais novo.
+
+Pesquisar: O que é e para que serve o Kernel
+Pesquisar: O que é e para que serve o OEM
+Pesquisar: O que é e para que serve o Kernel-OEM
+
+sudo uname -a
+sudo apt update
+sudo apt install linux-oem-24.04d
