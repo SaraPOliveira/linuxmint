@@ -1,0 +1,71 @@
+Objetivo da aula de hoje: 19/11/2025 - FINALIZAÇÃO
+
+#01_ Se autenticar com a sua conta no Github no Windows (desktop senac) e também no Linux Mint.
+
+#02_ Material das aulas na Rede SENAC-TAT
+T:\Publica\!!!!!!!RobsonVaamonde\LinuxMint
+
+#03_ ANTES DE INICIAR, FAZER UMA ATUALIZAÇÃO COMPLETA DO LINUX MINT, PODE SER UTILIZANDO O MINTUPDATE (MODO GRÁFICO) OU POR LINHA DE COMANDO NO TERMINAL USANDO: APT.
+
+#04_ Comandos Básicos de Manipulação de Diretórios
+Vídeo de apoio: https://www.youtube.com/watch?v=xs1zGEBf-wc
+
+ls (listar arquivos e diretórios)
+ls -lh	(modo lista)
+ls -lha	(all - tudo)
+
+. (ponto) Arquivo ou Diretório Oculto
+
+cd   (andar entre diretórios)
+cd / (raiz - root)
+cd ~ (seu diretório home - pessoal)
+cd - (voltar para diretório anterior)
+
+pwd  (mostrar o diretório atual)
+
+mkdir (criar diretório)
+mkdir -v (verboso - detalhado)
+mkdir -v TAT BRA PEN TIT
+
+touch (mudar a data hora de arquivo)
+touch tatuape.txt
+touch penha.txt tito.txt braganca.txt
+
+cp  (copiar arquivos ou diretórios)
+cp origem (Ctrl+C) destino (Ctrl+V)
+cp N origens 1 destino
+cp -v (verboso)
+
+mv  (mover o renomear arquivos diretórios)
+mv origem (Ctrl+X) destino (Ctrl+V)
+mv N origens 1 destino
+mv -v 
+
+rm  (remover arquivos e diretórios)
+rm -v 
+
+cat (listar o conteúdo de arquivos)
+cat -n (número de linhas)
+
+echo > 		(limpar e adicionar)
+echo >>		(adicionar no final)
+
+ | (piper - barra vertical)
+ 
+cat -n /etc/services
+head -n20 /etc/services
+tail -n20 /etc/services
+
+	Excluindo as linhas: 01 até 99
+	100 até 200
+	Excluindo as linhas: 201 até 361
+
+sudo apt install tree
+tree ~/SENAC      <-- Tirar um print
+
+
+#05_ Comandos Básicos de Manipulação de Arquivos
+Vídeo de apoio: https://www.youtube.com/watch?v=xs1zGEBf-wc
+
+#06_ Comandos Básicos do Editor de Texto VIM
+Vídeo de apoio: https://www.youtube.com/watch?v=KknZSuFsfmk
